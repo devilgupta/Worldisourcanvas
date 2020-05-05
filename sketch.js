@@ -33,6 +33,8 @@ function draw(){
         x:this.mouseX,
         y:this.mouseY
     })
+    mousePressed();
+    mouseReleased();
 }
 
 mousePressed=()=>{
